@@ -124,6 +124,93 @@ font: #fff;
 
 /* Aca termina lo relacionado con "sobre nosotros"-----------------------------------------------------------------*/
 
+/* Aca comienza lo relacionado con el " mision"-------------------------------------------------------------*/
+.contenedor-super-mision{
+    background: #f2f2f2;
+}
+.contenedor-sobre-mision{
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+.contenedor-sobre-mision p{
+    
+    text-align: center;
+}
+
+.image-about-us{
+    width: 45%;
+}
+
+.sobre-nosotros .contenido-textos{
+    width: 48%;
+}
+
+
+}
+.contenido-textos h3 span{
+    background: #4d0686;
+    color: white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+}
+
+.contenido-textos p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+/* Aca termina lo relacionado con "mision"-----------------------------------------------------------------*/
+
+/* Aca comienza lo relacionado con el " vision"-------------------------------------------------------------*/
+
+.contenedor-sobre-vision{
+   
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.image-about-us{
+    width: 45%;
+}
+
+.sobre-nosotros .contenido-textos{
+    width: 48%;
+}
+
+.contenido-textos h3{
+    margin-bottom: 15px;
+    margin-right: 22px;
+
+}
+.contenido-textos h3 span{
+    background: #4d0686;
+    color: white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 10px;
+}
+
+.contenido-textos p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+/* Aca termina lo relacionado con "vision"-----------------------------------------------------------------*/
+
 /* Aca termina lo relacionado con "portafolio"-----------------------------------------------------------------*/
 
 
@@ -195,8 +282,8 @@ font: #fff;
 .cards .card{
     background: #4d0686;
     display: flex;
-    width: 46%;
-    height: 200px;
+    width: 47%;
+    height: 255px;
     align-items: center;
     justify-content: space-evenly;
     border-radius: 5px;
@@ -296,8 +383,7 @@ footer{
 .titulo-final{
     text-align: center;
     font-size: 24px;
-    margin: 20px 0 0 0;
-    color: #9e9797;
+    margin: 20px;
 }
 
 
