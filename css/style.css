@@ -212,7 +212,15 @@ font: #fff;
     display: block;
 }
 
+.cards .card > .contenido-texto-card{
+    width: 60%;
+    color: #fff;
 
+}
+.cards .card > .contenido-texto-card p{
+    font-weight: 300;
+    padding-top: 18px;
+}
 
 /* Aca termina lo relacionado con "clientes"-----------------------------------------------------------------*/
 
