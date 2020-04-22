@@ -142,23 +142,11 @@ font: #fff;
     width: 45%;
 }
 
-.sobre-nosotros .contenido-textos{
+.sobre-mision .contenido-textos{
     width: 48%;
 }
 
 
-}
-.contenido-textos h3 span{
-    background: #4d0686;
-    color: white;
-    border-radius: 50%;
-    display: inline-block;
-    text-align: center;
-    width: 30px;
-    height: 30px;
-    padding: 2px;
-    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
-    margin-right: 5px;
 }
 
 .contenido-textos p{
@@ -177,9 +165,7 @@ font: #fff;
     justify-content: space-evenly;
 }
 
-.image-about-us{
-    width: 45%;
-}
+
 
 .sobre-nosotros .contenido-textos{
     width: 48%;
@@ -334,11 +320,9 @@ font: #fff;
 }
 
 .servicio-ind {
-    margin-left: 110px;
+    margin-left: 20px;
     border: solid #414141;
-    padding-left: 10px;
     
-    padding-top: 30px;
    
 
 }
@@ -349,6 +333,7 @@ font: #fff;
 .servicio-ind p{
     font-weight: 300;
     text-align: justify;
+    padding-top: 5px
    ;
 }
 /* Aca termina lo relacionado con "nuestro servicios"-------------------------------------------------------------*/
