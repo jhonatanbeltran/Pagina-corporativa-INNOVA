@@ -22,424 +22,399 @@ body {
   margin-bottom: 60px;
 }
 
+
 header {
   width: 100%;
   height: 600px;
   background: #fc5c7d;
-  background: -webkit-linear-gradient(to right, hsla(230, 95%, 70%, 0.575), hsla(348, 96%, 67%, 0.452)), url(../images/portada.jpg);
-  background: linear-gradient(to right, hsla(230, 95%, 70%, 0.575), hsla(348, 96%, 67%, 0.452)), url(../images/portada.jpg);
+  background: -webkit-linear-gradient(
+      to right,
+      hsla(230, 95%, 70%, 0.575),
+      hsla(348, 96%, 67%, 0.452)
+    ),
+    url(../images/portada.jpg);
+  background: linear-gradient(
+      to right,
+      hsla(230, 95%, 70%, 0.575),
+      hsla(348, 96%, 67%, 0.452)
+    ),
+    url(../images/portada.jpg);
   background-size: cover;
   background-attachment: fixed;
   position: relative;
 }
 
-
-
-nav{
-    text-align: right;
-    padding: 30px 50px 0 0;
+nav {
+  text-align: right;
+  padding: 30px 50px 0 0;
 }
 
-
-nav > a{
-    color: white;
-    font-weight: 500;
-    text-decoration: none;
-    margin-right: 25px;
+nav > a {
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+  margin-right: 25px;
 }
 
-nav > a:hover{
-    text-decoration: underline;
-    
-    
+nav > a:hover {
+  text-decoration: underline;
 }
 
-header .textos-header{
-    display: flex;
-    height: 430px;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
+header .textos-header {
+  display: flex;
+  height: 430px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
 
-.textos-header h1{
-font-size: 50px;
-font: #fff;
+.textos-header h1 {
+  font-size: 50px;
+  font: #fff;
 }
 
-.textos-header h2{
-font-size: 30px;
-font-size: 300;
-font: #fff;
+.textos-header h2 {
+  font-size: 30px;
+  font-size: 300;
+  font: #fff;
 }
 
-
-.wave{
-    position:absolute;
-    width: 100%;
-    bottom: 0;
+.wave {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
 }
 /* Aca termina lo relacionado con el "header"-------------------------------------------------------------------*/
 
-
 /* Aca comienza lo relacionado con el "sobre nosotros"-------------------------------------------------------------*/
 
-.contenedor-sobre-nosotros{
-    
-    display: flex;
-    justify-content: space-evenly;
+.contenedor-sobre-nosotros {
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.image-about-us{
-    width: 45%;
+.image-about-us {
+  width: 45%;
 }
 
-.sobre-nosotros .contenido-textos{
-    width: 48%;
+.sobre-nosotros .contenido-textos {
+  width: 48%;
 }
 
-.contenido-textos h3{
-    margin-bottom: 15px;
-
+.contenido-textos h3 {
+  margin-bottom: 15px;
 }
-.contenido-textos h3 span{
-    background: #4d0686;
-    color: white;
-    border-radius: 50%;
-    display: inline-block;
-    text-align: center;
-    width: 30px;
-    height: 30px;
-    padding: 2px;
-    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
-    margin-right: 5px;
-}
-
-
-.contenido-textos p{
-    padding: 0px 0px 30px 15px;
-    font-weight: 300;
-    text-align: justify;
+.contenido-textos h3 span {
+  background: #4d0686;
+  color: white;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  padding: 2px;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+  margin-right: 5px;
 }
 
-.contenido-textos h3{
-    margin-bottom: 15px;
-    margin-right: 22px;
+.contenido-textos p {
+  padding: 0px 0px 30px 15px;
+  font-weight: 300;
+  text-align: justify;
+}
 
+.contenido-textos h3 {
+  margin-bottom: 15px;
+  margin-right: 22px;
 }
 
 /* Aca termina lo relacionado con "sobre nosotros"-----------------------------------------------------------------*/
 
 /* Aca comienza lo relacionado con el " mision"-------------------------------------------------------------*/
-
-.contenedor-sobre-mision{
+.colorear{
     background: #f2f2f2;
-    display: flex;
-    justify-content: space-evenly;
 }
-.contenedor-sobre-mision p{
-    text-align: center;
+.contenedor-sobre-mision {
+  
+  display: flex;
+  justify-content: space-evenly;
 }
-.sobre-mision .contenido-textos{
-    width: 48%;
+.contenedor-sobre-mision p {
+  text-align: center;
+}
+.sobre-mision .contenido-textos {
+  width: 48%;
 }
 /* Aca termina lo relacionado con "mision"-----------------------------------------------------------------*/
 
 /* Aca comienza lo relacionado con el " vision"-------------------------------------------------------------*/
 
-.contenedor-sobre-vision{
-   
-    display: flex;
-    justify-content: space-evenly;
+.contenedor-sobre-vision {
+  display: flex;
+  justify-content: space-evenly;
 }
-.contenedor-sobre-vision p{
-    text-align: center;
-}
-
-.sobre-vision .contenido-textos{
-    width: 48%;
+.contenedor-sobre-vision p {
+  text-align: center;
 }
 
-
+.sobre-vision .contenido-textos {
+  width: 48%;
+}
 
 /* Aca termina lo relacionado con "vision"-----------------------------------------------------------------*/
 
 /* Aca termina lo relacionado con "portafolio"-----------------------------------------------------------------*/
 
-
-.portafolio{
-    background: #f2f2f2;
+.portafolio {
+  background: #f2f2f2;
 }
 
-.galeria-port{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    
+.galeria-port {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
-.imagen-port{
-    width: 24%;
-    height: 150px;
-    margin-bottom:10px;
-    overflow: hidden;
-    position: relative;
-    cursor:pointer;
-    box-shadow: 0 0 6px 0  rgba(0, 0, 0, .5);
-    
+.imagen-port {
+  width: 24%;
+  height: 150px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
 }
 
-.imagen-port > img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block ;
-}  
-.hover-galeria{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    transform:scale(0);
-    background: hsla(273, 91%, 27%, 0.7);
-    transition:  transform .5s;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
+.imagen-port > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.hover-galeria {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  transform: scale(0);
+  background: hsla(273, 91%, 27%, 0.7);
+  transition: transform 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.hover-galeria img{
-    width: 50px;
+.hover-galeria img {
+  width: 50px;
 }
 
-.hover-galeria p{
-    color: #fff;
+.hover-galeria p {
+  color: #fff;
 }
 
-.imagen-port:hover .hover-galeria{
-    transform: scale(1);
-
+.imagen-port:hover .hover-galeria {
+  transform: scale(1);
 }
 
 /* Aca termina lo relacionado con "portafolio"-----------------------------------------------------------------*/
 
 /* Aca comienza lo relacionado con "clientes"-----------------------------------------------------------------*/
 
-.cards{
-    display: flex;
-    justify-content: space-evenly;
+.cards {
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.cards .card{
-    background: #4d0686;
-    display: flex;
-    width: 47%;
-    height: 255px;
-    align-items: center;
-    justify-content: space-evenly;
-    border-radius: 5px;
-    box-shadow: 0 0 6px 0 rgba(0 , 0 , 0 , 0.6);
-
+.cards .card {
+  background: #4d0686;
+  display: flex;
+  width: 47%;
+  height: 255px;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 5px;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
 }
-.cards .card images{
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    border: 3px solid #fff;
-    border-radius: 50%;
-    display: block;
+.cards .card images {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  display: block;
 }
 
-.cards .card > .contenido-texto-card{
-    width: 60%;
-    color: #fff;
-
+.cards .card > .contenido-texto-card {
+  width: 60%;
+  color: #fff;
 }
-.cards .card > .contenido-texto-card p{
-    font-weight: 300;
-    padding-top: 18px;
+.cards .card > .contenido-texto-card p {
+  font-weight: 300;
+  padding-top: 18px;
 }
 
 /* Aca termina lo relacionado con "clientes"-----------------------------------------------------------------*/
 
 /* Aca comienza lo relacionado con "nuestro servicios"-------------------------------------------------------------*/
 
-.about-services{
-    background: #f2f2f2;
-    padding-bottom: 30px;
-    padding-right: 20px;
+.about-services {
+  background: #f2f2f2;
+  padding-bottom: 30px;
+  padding-right: 20px;
 }
 
-.servicio-cont{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-right: 20px;
+.servicio-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
 }
 
-.servicio-cont{
-    width: 28%;
-    text-align: center;
-    flex-direction: row;
-    
+.servicio-cont {
+  width: 28%;
+  text-align: center;
+  flex-direction: row;
 }
 
 .servicio-ind {
-    margin-left: 20px;
-    border: solid #414141;
-    
-   
-
+  margin-left: 20px;
+  border: solid #414141;
 }
-.servicio-ind h3{
-    margin: 10px 0;
+.servicio-ind h3 {
+  margin: 10px 0;
 }
 
-.servicio-ind p{
-    font-weight: 300;
-    text-align: justify;
-    padding-top: 5px
-   ;
+.servicio-ind p {
+  font-weight: 300;
+  text-align: justify;
+  padding-top: 5px;
 }
 /* Aca termina lo relacionado con "nuestro servicios"-------------------------------------------------------------*/
 
 /* Aca comienza lo relacionado con "footer"-------------------------------------------------------------*/
 
-
-footer{
-    width: 100%;
-    background:#492055;
-    color: white;   
-    
+footer {
+  width: 100%;
+  background: #492055;
+  color: white;
 }
 
-.container-footer-all{
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
-    padding: 40px;
+.container-footer-all {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px;
 }
 
-.container-body{
-    display: flex;
-    justify-content: space-between;
+.container-body {
+  display: flex;
+  justify-content: space-between;
 }
 
-.colum1{
-    max-width: 400px;
+.colum1 {
+  max-width: 400px;
 }
 
-.colum1 h1{
-    font-size: 22px;
+.colum1 h1 {
+  font-size: 22px;
 }
 
-.colum1 p{
-    font-size: 14px;
-    color: #C7C7C7;
-    margin-top: 20px;
+.colum1 p {
+  font-size: 14px;
+  color: #c7c7c7;
+  margin-top: 20px;
 }
 
-.colum2{
-    max-width: 400px;
-    
+.colum2 {
+  max-width: 400px;
 }
 
-.colum2 h1{
-    font-size: 22px;
+.colum2 h1 {
+  font-size: 22px;
 }
 
-.row{
-    margin-top: 20px;
-    display: flex;
+.row {
+  margin-top: 20px;
+  display: flex;
 }
 
-.row img{
-    width: 36px;
-    height: 36px;
+.row img {
+  width: 36px;
+  height: 36px;
 }
 
-.row label{
-    margin-top: 10px;
-    margin-left: 20px;
-    color: #C7C7C7;
+.row label {
+  margin-top: 10px;
+  margin-left: 20px;
+  color: #c7c7c7;
 }
 
-.colum3{
-    max-width: 400px;
+.colum3 {
+  max-width: 400px;
 }
 
-.colum3 h1{
-    font-size: 22px;
+.colum3 h1 {
+  font-size: 22px;
 }
 
-.row2{
-    margin-top: 20px;
-    display: flex;
+.row2 {
+  margin-top: 20px;
+  display: flex;
 }
 
-.row2 img{
-    width: 36px;
-    height: 36px;
+.row2 img {
+  width: 36px;
+  height: 36px;
 }
 
-.row2 label{
-    margin-top: 10px;
-    margin-left: 20px;
-    max-width: 140px;
+.row2 label {
+  margin-top: 10px;
+  margin-left: 20px;
+  max-width: 140px;
 }
 
-.container-footer{
-    width: 100%;  
-    background: #101010;
+.container-footer {
+  width: 100%;
+  background: #101010;
 }
 
-.footer{
-    max-width: 1200px;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;  
-    padding: 20px;
+.footer {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
 }
 
-.copyright{
-    color: #C7C7C7;
+.copyright {
+  color: #c7c7c7;
 }
 
-.copyright a{
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
+.copyright a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
 }
 
-.information a{
-    text-decoration: none;
-    color: #C7C7C7;
+.information a {
+  text-decoration: none;
+  color: #c7c7c7;
 }
 
+@media screen and (max-width: 1100px) {
+  .container-body {
+    flex-wrap: wrap;
+  }
 
-@media screen and (max-width: 1100px){
-    
-    .container-body{
-        flex-wrap: wrap;
-    }
-    
-    .colum1{
-        max-width: 100%;
-    }
-    
-    .colum2,
-    .colum3{
-        margin-top: 40px;
-    }
+  .colum1 {
+    max-width: 100%;
+  }
+
+  .colum2,
+  .colum3 {
+    margin-top: 40px;
+  }
 }
-
-
-
-
-
-
-
