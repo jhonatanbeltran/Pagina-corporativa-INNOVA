@@ -87,6 +87,7 @@ font: #fff;
 /* Aca comienza lo relacionado con el "sobre nosotros"-------------------------------------------------------------*/
 
 .contenedor-sobre-nosotros{
+    
     display: flex;
     justify-content: space-evenly;
 }
@@ -116,45 +117,34 @@ font: #fff;
     margin-right: 5px;
 }
 
+
 .contenido-textos p{
     padding: 0px 0px 30px 15px;
     font-weight: 300;
     text-align: justify;
+}
+
+.contenido-textos h3{
+    margin-bottom: 15px;
+    margin-right: 22px;
+
 }
 
 /* Aca termina lo relacionado con "sobre nosotros"-----------------------------------------------------------------*/
 
 /* Aca comienza lo relacionado con el " mision"-------------------------------------------------------------*/
-.contenedor-super-mision{
-    background: #f2f2f2;
-}
+
 .contenedor-sobre-mision{
-    
+    background: #f2f2f2;
     display: flex;
     justify-content: space-evenly;
 }
 .contenedor-sobre-mision p{
-    
     text-align: center;
 }
-
-.image-about-us{
-    width: 45%;
-}
-
 .sobre-mision .contenido-textos{
     width: 48%;
 }
-
-
-}
-
-.contenido-textos p{
-    padding: 0px 0px 30px 15px;
-    font-weight: 300;
-    text-align: justify;
-}
-
 /* Aca termina lo relacionado con "mision"-----------------------------------------------------------------*/
 
 /* Aca comienza lo relacionado con el " vision"-------------------------------------------------------------*/
@@ -164,36 +154,15 @@ font: #fff;
     display: flex;
     justify-content: space-evenly;
 }
+.contenedor-sobre-vision p{
+    text-align: center;
+}
 
-
-
-.sobre-nosotros .contenido-textos{
+.sobre-vision .contenido-textos{
     width: 48%;
 }
 
-.contenido-textos h3{
-    margin-bottom: 15px;
-    margin-right: 22px;
 
-}
-.contenido-textos h3 span{
-    background: #4d0686;
-    color: white;
-    border-radius: 50%;
-    display: inline-block;
-    text-align: center;
-    width: 30px;
-    height: 30px;
-    padding: 2px;
-    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
-    margin-right: 10px;
-}
-
-.contenido-textos p{
-    padding: 0px 0px 30px 15px;
-    font-weight: 300;
-    text-align: justify;
-}
 
 /* Aca termina lo relacionado con "vision"-----------------------------------------------------------------*/
 
@@ -339,43 +308,35 @@ font: #fff;
 /* Aca termina lo relacionado con "nuestro servicios"-------------------------------------------------------------*/
 
 /* Aca comienza lo relacionado con "footer"-------------------------------------------------------------*/
-footer{
 
+
+.footer{
     background: #414141;
-    padding: 60px 0 30px 0;
-    margin:auto;
-    overflow: hidden;
+    color: #d3d3d3;
+    height: 400px;
+    position: relative;
 }
-
-.contenedor-footer{
+.footer .footer-contenido{
+    border: 1px solid red;
+    height: 350px;
     display: flex;
-    width: 90%;
-    justify-content: space-evenly;
-    margin:auto;
-    padding-bottom: 50px;
-    border-bottom: 1px solid #ccc;
 }
-
-.content-foo{
+.footer .footer-contenido .footer-section{
+    flex: 1;
+    padding: 25px;
+    border: 1px solid white;
+}
+.footer .footer-bottom{
+    background: #343a40;
+    color: #686868;
+    height: 50px;
+    width: 100%;
     text-align: center;
-}
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px;
 
-.content-foo h4{
-    color: #fff;
-    border-bottom: 3px solid #af20d3;
-    padding-bottom: 70px;
-}
-
-.content-foo p{
-    color: #ccc;
-    border-bottom: 3px solid #af20d3;
-    padding-bottom: 32px;
-}
-
-.titulo-final{
-    text-align: center;
-    font-size: 14px;
-    margin: 1px;
 }
 
 
