@@ -371,7 +371,7 @@ footer{
 .content-foo h4{
     color: #fff;
     border-bottom: 3px solid #af20d3;
-    padding-bottom: 10px;
+    padding-bottom: 70px;
 }
 
 .content-foo p{
@@ -382,8 +382,8 @@ footer{
 
 .titulo-final{
     text-align: center;
-    font-size: 24px;
-    margin: 20px;
+    font-size: 14px;
+    margin: 12px;
 }
 
 
