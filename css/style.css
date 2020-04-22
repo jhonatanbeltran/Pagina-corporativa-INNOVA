@@ -329,10 +329,17 @@ font: #fff;
 .servicio-cont{
     width: 28%;
     text-align: center;
+    flex-direction: row;
+    
 }
 
-.servicio-ind images{
-    width: 90%;
+.servicio-ind {
+    margin-left: 110px;
+    border: solid #414141;
+    padding-left: 10px;
+    
+    padding-top: 30px;
+   
 
 }
 .servicio-ind h3{
@@ -377,13 +384,13 @@ footer{
 .content-foo p{
     color: #ccc;
     border-bottom: 3px solid #af20d3;
-    padding-bottom: 10px;
+    padding-bottom: 32px;
 }
 
 .titulo-final{
     text-align: center;
     font-size: 14px;
-    margin: 12px;
+    margin: 1px;
 }
 
 
