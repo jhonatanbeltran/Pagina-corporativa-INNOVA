@@ -306,6 +306,100 @@ header .textos-header {
 }
 /* Aca termina lo relacionado con "nuestro servicios"-------------------------------------------------------------*/
 
+/* Aca comienza lo relacionado con "los servicios"-------------------------------------------------------------*/
+ 
+.box{
+  width: 30%;
+  float: left;
+  margin: 50px 20px;
+  background-color: #f2f2f2;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+}
+.img-servicios{
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+
+}
+.box h4{
+  margin-bottom: 10px;
+}
+.box p{
+  font-size: 15px;
+  line-height: 28px;
+  height: 90px;
+  overflow: hidden;
+}
+.box a{
+  display: inline-block;
+  color: #fff;
+  background-color: #2196f3;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+
+.box a:hover{
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.box.showContent p{
+  height: auto;
+}
+.box.showContent a.readmore-btn{
+  background-color: red;
+
+
+}
+.servicios h2 {
+  text-align: center;
+  text-decoration: none;
+}
+ a{
+  
+  text-decoration: none;
+}
+
+/* Aca termina lo relacionado con "los servicios"-------------------------------------------------------------*/
+
+/* Aca comienza lo relacionado con "team"-------------------------------------------------------------*/
+
+.slider{
+  display: flex;
+  width: 100%;
+  height: 300px;
+ background-color: #f2f2f2;
+ justify-content: space-between;
+}
+ .perfil{
+   width: 20%;
+   height: 270px;
+   background-color: #8965a7;
+   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+   margin-top: 17px;
+   margin-bottom: 5px;
+   margin-left: 2px;
+   margin-right: 2px;
+   border-radius: 7px;
+ }
+ .perfil img{
+   margin-left: 3em;
+ }
+ .perfil h3, h2{
+  margin-left: 3em;
+ }
+
+
+
+
+
+
+
+/* Aca termina lo relacionado con "team"-------------------------------------------------------------*/
+
 /* Aca comienza lo relacionado con "footer"-------------------------------------------------------------*/
 
 footer {
